@@ -27,7 +27,7 @@ actions = np.array(['none','close', 'swiperight','zoom', 'swipeleft','cut', 'thr
 sequence_length = 12
 no_sequence = 35
 
-model = tf.keras.models.load_model('action.h5') 
+model = tf.keras.models.load_model('handmodel.h5') 
 model.summary() 
 
 mp_holistic = mp.solutions.holistic # Holistic model
